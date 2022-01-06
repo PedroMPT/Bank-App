@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/bottom_navigation_menu_home"
+        android:enabled="true"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:fontFamily="@font/open_sans_regular"
+        android:title="@string/home"/>
+
+    <item
+        android:id="@+id/bottom_navigation_menu_transactions"
+        android:enabled="true"
+        android:icon="@drawable/ic_payment_black_24dp"
+        android:fontFamily="@font/open_sans_regular"
+        android:title="@string/payment"/>
+
+    <item
+        android:id="@+id/bottom_navigation_menu_payments"
+        android:fontFamily="@font/open_sans_regular"
+        android:enabled="true"
+        android:icon="@drawable/ic_compare_arrows_black_24dp"
+        android:title="@string/transfer"/>
+
+    <item
+        android:id="@+id/bottom_navigation_menu_user"
+        android:fontFamily="@font/open_sans_regular"
+        android:enabled="true"
+        android:icon="@drawable/ic_person_black_24dp"
+        android:title="@string/user"/>
+</menu>
